@@ -99,7 +99,7 @@ td			/* Aqui damos formato a los campos de actividades de la tabla  */
 			color: #0b4fee;
 			}			
 			
-#contenido, #inicio, #actividades, #horarios, #contratacion				/* Aqui se le da el tamaño y posicion a las capas de contenidos */
+#contenido, #inicio, #actividades, #horarios, #contratacion	/* Aqui se le da el tamaño y posicion a las capas de contenidos */
 			{
 			height: 535px;
 			width: 830px;
