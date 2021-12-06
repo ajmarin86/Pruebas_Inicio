@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE vivero>
+
+<vivero>
+    <informacion>
+        <nombre>Crasuland</nombre>
+        <email uso="info" >info@crasuland.es</email>
+        <email uso="pedidos" >pedidos@crasuland.es</email>
+        <telefono></telefono>
+        <direccion></direccion>
+    </informacion>
+    <catalogo>
+        
+    </catalogo>
+  
+</vivero>
+
