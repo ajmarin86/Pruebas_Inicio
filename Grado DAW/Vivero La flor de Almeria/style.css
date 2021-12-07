@@ -50,7 +50,7 @@
     background-color: #d4e9d6; 
 }
 
-#pie		/* Aqui posicionamos el pie y definimos caracteristicas del texto que no se definieron al princiop y queremos que afecten aqui. */
+#pie		/* Aqui posicionamos el pie y definimos caracteristicas del texto que queremos que afecten aqui. */
     {
     text-align: center;
     font: 0.7em arial;
@@ -95,6 +95,12 @@ h1
 	font: 1em verdana;
 }
 
+h4		
+	{
+	color: #3aad20;
+	margin: 5px;
+}
+
 #banner		/* Aqui posicionamos el banner */
 	{
 	margin-left: 30px;
@@ -116,10 +122,11 @@ h1
     margin-left: 300px;
 }
 
-#contenido, #inicio, #productos, #formacion, #citaprevia	/* Aqui se le da el tamaño y posicion a las capas de contenidos */
+	/* Aqui se le da el tamaño y posicion a las capas de contenidos */
+#contenido, #inicio, #productos, #formacion, #citaprevia
 	{
     height: 700px;
-	width: 830px;
+	width: 840px;
 	margin-left: 20px;
     
 }
@@ -129,3 +136,46 @@ h1
 	overflow: hidden;
 }
 
+	/* Damos formato a las fotos de los productos junto a sus nombres*/
+#geranios, #anturios, #jazmin, #abono, #nitrogeno, #belure		
+	{
+	float:left;
+	margin-left: 20px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 5px;			
+}
+	
+.zoom		/* Aqui definimos el paso de la foto al pasar el raton por encima */
+	{
+	transition: transform 1.2s;
+}
+			
+.zoom:hover	/* Aqui definimos lo que pasa cuando pasamos el raton por encima de las fotos en este caso */
+	{
+	transform: scale(1.4);
+}
+
+table		/* Aqui se le da formato al borde y posicion de la tabla al completo. */
+	{
+	border: 2px solid #3aad20;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+th			/* Aqui damos formato a las cabeceras de la tabla */
+    {
+	border: 1.5px solid #3aad20;
+	width: 123px;
+	height: 40px;
+	font: 1em;
+}
+			
+td			/* Aqui damos formato a los campos de cursos de la tabla  */
+	{
+	border: 1.5px dotted black;
+	width: 123px;
+	height: 40px;
+	text-align: center;
+}
+			
