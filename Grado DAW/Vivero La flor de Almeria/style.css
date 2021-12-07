@@ -1,0 +1,131 @@
+
+
+#principal	/* Aqui damos formato al div principal */
+    {
+    width: 850px;
+    height: 650px;
+    margin: 1px auto;
+    background-color: #ffffff;
+}
+
+#logotipo	/* Formato para el logotipo */
+    {
+    background-image: url(img/logo2b.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 300px;
+    height: 248px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+#menu		/* Formato para menu */
+    {
+	float: right;
+	margin-right: 20px;
+	margin-top: 120px;
+    margin-bottom: 10px;
+	color: #1d3d07;
+}
+			
+#menu a		/* Formato para la palabras del menu */
+    {
+    text-decoration: none;
+    color: #195809;
+}		
+
+#menu li			/* Formato para los enlaces a los contenidos */
+    {
+	display: inline;
+	padding: 5px 20px;
+	margin-left: 10px;
+	border: 2px solid #32e73b;
+	border-radius: 25%;
+	border-width: 2px;
+	background-color: #95f092;
+}	
+
+#menu li:hover 		/* Aqui le damos el efecto de cambiar color de fondo al pasar el raton por encima */
+    {
+    background-color: #d4e9d6; 
+}
+
+#pie		/* Aqui posicionamos el pie y definimos caracteristicas del texto que no se definieron al princiop y queremos que afecten aqui. */
+    {
+    text-align: center;
+    font: 0.7em arial;
+    margin-bottom: 5px;
+}
+
+#datos 		/* Aqui damos formato y posicion a la informacion de la empresa y del autor web en el pie de pagina */	
+    {
+    float: left;
+    margin-top: 40px; 
+}
+
+/* En el texto de parrafo se ha incluido una etiqueta para una primera tabulacion del parrafo */
+p			
+    {
+    font: 0.9em comic-sans italic;
+    text-indent: 4em; 
+    margin: 5px;
+}
+
+#fotocc		/* Aqui damos formato y posicion al logo de CreativeCommons en el pie de pagina */
+	{
+	background-image: url(img/cc.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	width: 200px;
+	height: 80px;
+	margin-right: -80px;
+	margin-top: 30px;
+}
+
+#aviso		/* Aqui damos formato y posicion al enlace de aviso legal de CreativeCommons en el pie de pagina */
+	{
+	float: right;
+	margin-right: 110px;
+	margin-top: 45px;
+}
+
+h1			
+	{
+	color: #3aad20;
+	font: 1em verdana;
+}
+
+#banner		/* Aqui posicionamos el banner */
+	{
+	margin-left: 30px;
+	margin-bottom: 20px;
+	margin-top: 1px;
+}
+
+#parrafo    /* En el texto de parrafo se ha incluido una etiqueta para una primera tabulacion del parrafo */
+	{
+	font: 1em arial italic;	
+    color: #6b6db1;
+    text-align: justify;
+}
+
+#parrafo ol
+    {
+    font: arial italic;	
+    color: #6b6db1;
+    margin-left: 300px;
+}
+
+#contenido, #inicio, #productos, #formacion, #citaprevia	/* Aqui se le da el tamaño y posicion a las capas de contenidos */
+	{
+    height: 700px;
+	width: 830px;
+	margin-left: 20px;
+    
+}
+
+#contenido	/* Con esta etiqueta hacemos que no se muestren todas las capas de contenido a la vez */
+	{
+	overflow: hidden;
+}
+
