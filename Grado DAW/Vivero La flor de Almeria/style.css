@@ -3,7 +3,7 @@
 #principal	/* Aqui damos formato al div principal */
     {
     width: 850px;
-    height: 650px;
+    height: 850px;
     margin: 1px auto;
     background-color: #ffffff;
 }
@@ -173,9 +173,27 @@ th			/* Aqui damos formato a las cabeceras de la tabla */
 			
 td			/* Aqui damos formato a los campos de cursos de la tabla  */
 	{
-	border: 1.5px dotted black;
+	border: 1.5px dotted #3aad20;
 	width: 123px;
 	height: 40px;
 	text-align: center;
 }
 			
+#fotocita	/* Aqui cargamos la foto de la capa de formulario y le damos formato y posicion  */
+	{
+	background-image: url(img/fotocita.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#formulario	/* Con esta etiqueta definimos la posicion del formulario */
+	{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+

@@ -11,10 +11,11 @@
 
         <body>
 
-            <div id="principal"><!-- Defino un div principal para acotar la pagina y por si quisiera darle color aunque tras terminar he decidido hacerlo sobre
+            <div id="principal"> 
+                <!-- Defino un div principal para acotar la pagina y por si quisiera darle color aunque tras terminar he decidido hacerlo sobre
                 fondo blanco porque creo que queda mejor con el tema y con la estetica. -->
                 
-                <div id="encabezado">
+                <header id="encabezado">
                     <div id="logotipo"></div> <!-- Defino un div para insertar el logo de la empresa. -->
 
                     <div id="menu"> <!--Aqui defino el div que contendra los enlaces del menu a los contenidos, tanto este div como el del logo y el pie de pagina 
@@ -26,9 +27,10 @@
                             <li><a href="#citaprevia">Citra previa</a></li>
                         </ul>
                     </div>
-                </div>
+                </header>
 
-                <div id="contenido"> <!-- Aqui defino los diferentes contenidos. -->
+                <section id="contenido">
+                    <!-- Aqui defino los diferentes contenidos. -->
                     <div id="inicio"> <!-- Este es el contenido inicio, contiene el banner y un texto de presentacion. -->
                         <h1>Inicio</h1>
                         <div id="banner">
@@ -109,8 +111,8 @@
 							
 							<tr> <!-- Tabla para la segunda hora que seran las 18:00 -->							
 							<th>18:00</th>
-							<td rowspan="2">Sistemas de riego basico</td>
-							<td rowspan="2">Iniciacion a bonsais</td>
+							<td rowspan="2">Sistemas de riego avanzado</td>
+							<td rowspan="2">Paisajismo</td>
 							<td>Plantas de interior</td>							
 							</tr>
 							
@@ -123,20 +125,83 @@
 
                     </div>
 
-                </div>
+                    <div id="citaprevia">
+                        <h1>Cita previa</h1>
+                        <div id="fotocita"></div>
+                        <div id="formulario">
+                            <form action="">
+					            <div id="campnom"> <!-- Campo para nombre  -->
+                                    <label>Nombre y apellidos</label> <br>
+                                    <input type="text" id="nombre"/>
+                                </div>
+                                <br>
+                                <div id="e-mail"> <!-- Campo para correo electronico -->
+                                    <label>Correo electronico</label> <br>
+                                    <input type="text"	id="email"/>
+                                </div>
+                                <br>
+                                <div id="telefono"> <!-- Campo para el numero de telefono -->
+                                    <label>Telefono</label> <br>
+                                    <input type="text"	id="telf"/>
+                                </div>
+                                <br>
+                                <div id="desplegable"> <!-- Este div es el desplegable para seleccionar producto o curso -->
+                                    <label>Producto o servicio</label> <br>
+                                    <select id="seleccion">		
+                                        <option value="selec">Seleccione una opcion</option>
+                                        <optgroup label="Productos">
+                                            <option value="geranios">Geranios</option>
+                                            <option value="anturios">Anturios</option>
+                                            <option value="jazmin">Jazmin</option>
+                                            <option value="abono">Abono</option>
+                                            <option value="nitrogeno">Nitrogeno</option>
+                                            <option value="belure">Belure-T</option>
+                                        </optgroup>
+                                        <optgroup label="Cursos">
+                                            <option value="bonsais">Iniciacion a bonsais</option>
+                                            <option value="olivar">Cultivo del olivar</option>
+                                            <option value="plantint">Plantas de interior</option>
+                                            <option value="riegobasico">Sistemas de riego basico</option>
+                                            <option value="riegoavan">Sistemas de riego avanzado</option>
+                                            <option value="cultinver">Cultivos en invernaderos</option>
+                                            <option value="paisajismo">Paisajismo</option>
+                                        </optgroup>								
+                                    </select>
+                                </div>
+                                <br>
+                                <div id="comentario">  <!-- Este div es el campo para comentarios de un tamaño muy superior a los otros -->
+                                    <label>Comentarios</label> <br>
+                                    <textarea id="area" rows="9" cols="50"></textarea>
+                                </div>
+                                <br>
+                                <div id="botones"> <!-- Estos son los botones de enviar y resetear el formulario -->
+                                    <input type="submit"/>
+                                </div>
+                               
+                            </form>
 
-                <div id="pie"> <!-- En este div tenemos el pie de pagina, este incluye 2 divs, uno con los datos de la empresa y el contacto del diseñador web y otro con el icono
-							de creativecommons y el enlace al texto legal-->
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+                <footer id="pie">
+                    <!-- En este div tenemos el pie de pagina, este incluye 2 divs, uno con los datos de la empresa 
+                    y el contacto del diseñador web y otro con el icono	de creativecommons y el enlace al texto legal-->
+
 				    <div id="datos">
 					    <p>Vivero La flor de Almería. Avda. de Andalucia Nº 37 CP04007 Almeria. Telf: 950 55 55 55 - <a href="general@lafloralmeria.es">general@lafloralmeria.es</a></p>
 					    <p>Autor Web: Antonio J. Lopez - <a href="ajmarin86@gmail.com">ajmarin86@gmail.com</a> </p>
 				    </div>
+
 				    <div id="fotocc">
 					    <div id="aviso">
                             <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES">Aviso legal</a>
                         </div>
 				    </div>
-			    </div>
+                    
+                </footer>
 
             </div>
 
