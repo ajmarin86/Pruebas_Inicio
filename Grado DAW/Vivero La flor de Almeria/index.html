@@ -1,4 +1,4 @@
-<!-- El html esta probado en 4 navegadores, Opera, Chrome, Edge y iexplorer,  -->
+<!-- El html esta probado en 4 navegadores, Opera, Chrome, Edge e iexplorer, en todos funciona bien.  -->
 
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,26 +12,28 @@
         <body>
 
             <div id="principal"> 
-                <!-- Defino un div principal para acotar la pagina y por si quisiera darle color aunque tras terminar he decidido hacerlo sobre
-                fondo blanco porque creo que queda mejor con el tema y con la estetica. -->
+                <!-- Defino un div principal para acotar la pagina y por si quisiera darle color. -->
                 
                 <header id="encabezado">
-                    <div id="logotipo"></div> <!-- Defino un div para insertar el logo de la empresa. -->
+                    <div id="logotipo">
+                    </div> <!-- Defino un div para insertar el logo de la empresa. -->
 
-                    <div id="menu"> <!--Aqui defino el div que contendra los enlaces del menu a los contenidos, tanto este div como el del logo y el pie de pagina 
-                    seran fijos en la pagina y lo que cambiara sera solo el contenido.  -->
+                    <nav id="menu">
+                        <!--Aqui defino el div que contendra los enlaces del menu a los contenidos, tanto este div como el del logo y el 
+                            pie de pagina seran fijos en la pagina y lo que cambiara sera solo el contenido.  -->
                         <ul>
                             <li><a href="#inicio">Inicio</a></li>
                             <li><a href="#productos">Productos</a></li>
                             <li><a href="#formacion">Formacion</a></li>
                             <li><a href="#citaprevia">Citra previa</a></li>
                         </ul>
-                    </div>
+                    </nav>
                 </header>
 
                 <section id="contenido">
                     <!-- Aqui defino los diferentes contenidos. -->
-                    <div id="inicio"> <!-- Este es el contenido inicio, contiene el banner y un texto de presentacion. -->
+                    <div id="inicio"> 
+                        <!-- Este es el contenido inicio, contiene el banner y un texto de presentacion. -->
                         <h1>Inicio</h1>
                         <div id="banner">
                             <img src="img/b_flores2.gif" />
@@ -61,6 +63,7 @@
                     </div>
 
                     <div id="productos">
+                        <!-- Este es el contenido Productos, contiene 6 productos y se aplica un efecto de agrandar al pasar el raton. -->
                         <h1>Productos</h1>
                         <div id="belure">
                             <img class="zoom" src="img/bel.jpg" />
@@ -89,6 +92,7 @@
                     </div>
 
                     <div id="formacion">
+                        <!-- Este es el contenido de Formacion, muestra una tabla con los horarios de los cursos. -->
                         <h1>Formacion</h1>
                         <table>
 							<tr> <!-- Tabla para los dias de la semana que seran la cabecera de las columnas -->
@@ -100,32 +104,33 @@
 							<th>Viernes</th>
 							</tr>
 							
-							<tr> <!-- Tabla para la primera hora que seran las 17:00 -->
+							<tr> <!-- Tabla para la primera hora, 17:00 -->
 							<th>17:00</th>
 							<td rowspan="2">Iniciacion a bonsais</td>
 							<td>Plantas de interior</td>
-							<td>Cultivos en invernaderos</td>
+							<td rowspan="2">Cultivos en invernaderos</td>
 							<td>Cultivos en invernaderos</td>
 							<td rowspan="2">Sistemas de riego basico</td>							
 							</tr>
 							
-							<tr> <!-- Tabla para la segunda hora que seran las 18:00 -->							
+							<tr> <!-- Tabla para la segunda hora, 18:00 -->							
 							<th>18:00</th>
 							<td rowspan="2">Sistemas de riego avanzado</td>
-							<td rowspan="2">Paisajismo</td>
-							<td>Plantas de interior</td>							
+							<td>Paisajismo</td>							
 							</tr>
 							
-							<tr> <!-- Tabla para la tercera hora que seran las 19:00 -->							
+							<tr> <!-- Tabla para la tercera hora, 19:00 -->							
 							<th>19:00</th>
 							<td>Cultivo del olivar</td>
-							<td>Cultivo del olivar</td>							
+							<td>Cultivo del olivar</td>	
+							<td>Plantas de interior</td>						
 							</tr>
 						</table>
 
                     </div>
 
                     <div id="citaprevia">
+                        <!-- Este es el contenido para el formulario de cita previa, foto debajo del titulo y formulario a la derecha. -->
                         <h1>Cita previa</h1>
                         <div id="fotocita"></div>
                         <div id="formulario">
@@ -145,7 +150,7 @@
                                     <input type="text"	id="telf"/>
                                 </div>
                                 <br>
-                                <div id="desplegable"> <!-- Este div es el desplegable para seleccionar producto o curso -->
+                                <div id="desplegable"> <!-- Este div es el desplegable para seleccionar producto o curso. -->
                                     <label>Producto o servicio</label> <br>
                                     <select id="seleccion">		
                                         <option value="selec">Seleccione una opcion</option>
@@ -169,25 +174,24 @@
                                     </select>
                                 </div>
                                 <br>
-                                <div id="comentario">  <!-- Este div es el campo para comentarios de un tamaño muy superior a los otros -->
+                                <div id="comentario">  <!-- Este div es el campo para comentarios -->
                                     <label>Comentarios</label> <br>
                                     <textarea id="area" rows="9" cols="50"></textarea>
                                 </div>
                                 <br>
-                                <div id="botones"> <!-- Estos son los botones de enviar y resetear el formulario -->
+                                <div id="boton"> <!-- Este es el boton para enviar el formulario -->
                                     <input type="submit"/>
                                 </div>
                                
                             </form>
 
                         </div>
-                        
                     </div>
 
                 </section>
 
                 <footer id="pie">
-                    <!-- En este div tenemos el pie de pagina, este incluye 2 divs, uno con los datos de la empresa 
+                    <!-- Aqui tenemos el pie de pagina, incluye 2 divs, uno con los datos de la empresa 
                     y el contacto del diseñador web y otro con el icono	de creativecommons y el enlace al texto legal-->
 
 				    <div id="datos">

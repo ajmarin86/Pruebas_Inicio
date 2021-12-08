@@ -48,6 +48,7 @@
 #menu li:hover 		/* Aqui le damos el efecto de cambiar color de fondo al pasar el raton por encima */
     {
     background-color: #d4e9d6; 
+	border-color: #d4e9d6; 
 }
 
 #pie		/* Aqui posicionamos el pie y definimos caracteristicas del texto que queremos que afecten aqui. */
