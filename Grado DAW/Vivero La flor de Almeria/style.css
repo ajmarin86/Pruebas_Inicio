@@ -198,3 +198,8 @@ td			/* Aqui damos formato a los campos de cursos de la tabla  */
 	margin-left: 10px;
 }
 
+#canales	
+{
+float: right;
+margin-right: 10px;
+}

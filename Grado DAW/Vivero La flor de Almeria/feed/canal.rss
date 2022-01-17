@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Canal de noticias</title>
+        <link>http://www.laflordealmeria.es</link>
+        <description>Este es el canal RSS de la Flor de Almeria</description>
+        <language>es-es</language>
+        <managingEditor>ajmarin86@gmail.com (Antonio J. Lopez)</managingEditor>
+        <pubDate>Sat, 15 Jan 2022 17:16:01 +0100</pubDate>
+        <category>viveros</category>
+        <category>semilleros</category>
+        <category>arreglos florales</category>
+
+        <item>
+            <title>Vivero la flor de Almería crea web con servicio de sindicación de contenidos.</title>
+            <category>viveros</category>
+            <pubDate>Sat, 18 Dec 2021 10:30:00 +0100</pubDate>
+            <description>El vivero la flor de Almería añade a su web el servicio de sindicación de contenidos con los estándares RSS y Atom.</description>
+            <link>https://www.viverolaflordealmeria.es/noticias/nuevo_servicio_de_sindicacion</link>
+        </item>
+
+        <item>
+            <title>Consejos para el mantenimiento de las poinsettias en Navidad</title>
+            <category>arreglos florales</category>
+            <pubDate>Fri, 3 Dec 2021 12:35:40 +0100</pubDate>
+            <description>Cuidados para tener unas preciosas poinsettias estas navidades</description>
+            <link>https://www.guiaverde.com/noticias/consejos-para-que-las-poinsettias-luzcan-perfectas-en-los-establecimientos-y-sobrevivan-tras-las-fiestas-navidenas-6814/</link>
+            <author>info@guiaverde.com (Correo de la web de la noticia)</author>
+            <enclosure url="https://www.guiaverde.com/files/noticia/poinsettias_starsforeurope_03122021103100.jpg" length="100" type="img/png" />
+        </item>
+        
+        <item>
+            <title>Exportación de flor cortada española</title>
+            <category>semilleros</category>
+            <pubDate>Mon, 18 Oct 2021 10:00:00 +0100</pubDate>
+            <description>Articulo referente al mercado de la flor cortada en España</description>
+            <link>https://www.infoagro.com/noticias/2021/la_exportacion_de_flor_cortada_espanola_crece_un_49__en_el_ultimo_lust.asp</link>
+            <enclosure url="https://www.infoagro.com/noticias/images/35963_l_flores_cortadas_.jpg" length="100" type="img/png" />
+        </item>
+        
+    </channel>
+</rss>
